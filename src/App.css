@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@700&display=swap');
+
+
+/* --------------------------------- header --------------------------------- */
+
+.Header{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  width: 100vw;
+  height: 17vw;
+  background-color: black;
+  color: #4AF626;
+}
+
+.Title{
+  /* margin-top: 5vw; */
+  font-family: 'Odibee Sans', cursive;
+  font-size: 10vw;
+}
+
+.Subtitle{
+  font-family: 'Nunito', sans-serif;
+  font-size: 4vw;
+}
+
+/* -------------------------------- projects -------------------------------- */
+
+.Projects{
+  /* background-color: orange; */
+  width: 100vw;
+  padding: 3vw 0 3vw 0;
+}
+
+.Project{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+.Project:hover{
+  background-color: black;
+  color: white;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+
+  width: 60vw;
+  margin-left: 3vw;
+}
+
+.logo{
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.ProjectTitle{
+  font-family: 'Odibee Sans', cursive;
+  font-size: 4vw;
+}
+
+.Description{
+  font-family: 'Nunito', sans-serif;
+  font-size: 2vw;
+}
+
+
+/* ------------------------- project specific images ------------------------ */
+
+.marvel{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 4vw;
+  letter-spacing: -5px;
+  height: 5vw;
+  width: 16.5vw;
+  background-color: rgb(211, 24, 24);
+  padding: .5vw .5vw .5vw .5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sun{
+  width: 15vw;
+  height: auto;
+}
